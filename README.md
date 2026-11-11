@@ -1,6 +1,6 @@
 # Agent Skills
 
-[![skills.sh](https://skills.sh/b/Martin-Kocev/skills)](https://skills.sh/Martin-Kocev/skills)
+[![skills.sh](https://skills.sh/b/Martin-Kocev/MaKo-Skills)](https://skills.sh/Martin-Kocev/MaKo-Skills)
 
 A collection of portable, composable Agent Skills for codebase exploration, disciplined delivery, and multi-agent coordination.
 
@@ -8,9 +8,9 @@ A collection of portable, composable Agent Skills for codebase exploration, disc
 
 | Skill | What it does | Install |
 |---|---|---|
-| [interactive-codebase-atlas](skills/interactive-codebase-atlas/) | Builds an evidence-backed, browser-based map of a codebase, including a file-by-file Reading Order, in a separate, untracked sibling directory. | `npx skills@latest add Martin-Kocev/skills --skill interactive-codebase-atlas` |
-| [gitflow-feature-workflow](skills/gitflow-feature-workflow/) | Runs features, hotfixes, and releases through strict `main`/`dev` Gitflow with a written plan, test-first development, branches announced to the team on start, and an Obsidian-friendly project wiki. | `npx skills@latest add Martin-Kocev/skills --skill gitflow-feature-workflow` |
-| [orchestrator](skills/orchestrator/) | Explicitly invoked coordination of separable work across Claude and Codex subagents under a chosen model and concurrency cap, followed by independent verification. | `npx skills@latest add Martin-Kocev/skills --skill orchestrator` |
+| [interactive-codebase-atlas](skills/interactive-codebase-atlas/) | Builds an evidence-backed, browser-based map of a codebase, including a file-by-file Reading Order, in a separate, untracked sibling directory. | `npx skills@latest add Martin-Kocev/MaKo-Skills --skill interactive-codebase-atlas` |
+| [gitflow-feature-workflow](skills/gitflow-feature-workflow/) | Runs features, hotfixes, and releases through strict `main`/`dev` Gitflow with a written plan, test-first development, branches announced to the team on start, and an Obsidian-friendly project wiki. | `npx skills@latest add Martin-Kocev/MaKo-Skills --skill gitflow-feature-workflow` |
+| [orchestrator](skills/orchestrator/) | Explicitly invoked coordination of separable work across Claude and Codex subagents under a chosen model and concurrency cap, followed by independent verification. | `npx skills@latest add Martin-Kocev/MaKo-Skills --skill orchestrator` |
 
 Each skill is self-contained and can be installed independently. `interactive-codebase-atlas` and `orchestrator` are explicit-invocation-only skills; neither is selected automatically. The atlas never adds generated output to the repository being studied.
 
@@ -19,21 +19,21 @@ Each skill is self-contained and can be installed independently. `interactive-co
 Install any skill directly from the public GitHub repository:
 
 ```bash
-npx skills@latest add Martin-Kocev/skills --skill interactive-codebase-atlas
-npx skills@latest add Martin-Kocev/skills --skill gitflow-feature-workflow
-npx skills@latest add Martin-Kocev/skills --skill orchestrator
+npx skills@latest add Martin-Kocev/MaKo-Skills --skill interactive-codebase-atlas
+npx skills@latest add Martin-Kocev/MaKo-Skills --skill gitflow-feature-workflow
+npx skills@latest add Martin-Kocev/MaKo-Skills --skill orchestrator
 ```
 
 Browse and select from the full collection interactively:
 
 ```bash
-npx skills@latest add Martin-Kocev/skills
+npx skills@latest add Martin-Kocev/MaKo-Skills
 ```
 
 Install the atlas globally for Codex without prompts:
 
 ```bash
-npx skills@latest add Martin-Kocev/skills --skill interactive-codebase-atlas --global --agent codex --yes
+npx skills@latest add Martin-Kocev/MaKo-Skills --skill interactive-codebase-atlas --global --agent codex --yes
 ```
 
 Preview what the CLI discovers before publishing:
@@ -97,7 +97,7 @@ The test suite validates every skill package, checks referenced resources, synta
 
 ## Published source and skills.sh
 
-The canonical public repository is [Martin-Kocev/skills](https://github.com/Martin-Kocev/skills). Skills become eligible for skills.sh automatically after installations are reported by the CLI; there is no separate package upload.
+The canonical public repository is [Martin-Kocev/MaKo-Skills](https://github.com/Martin-Kocev/MaKo-Skills). Skills become eligible for skills.sh automatically after installations are reported by the CLI; there is no separate package upload.
 
 ## License
 

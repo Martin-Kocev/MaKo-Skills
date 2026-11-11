@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- Renamed the public repository to `Martin-Kocev/MaKo-Skills`; install commands and the skills.sh badge now use the new name.
+
 ## [1.2.0] - 2026-10-08
 
 ### Added
